@@ -1,4 +1,7 @@
 # 🔐 Password Generator Web App
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/ReyGaCuek/password-generator)
+![GitHub Repo stars](https://img.shields.io/github/stars/ReyGaCuek/password-generator?style=social)
 
 A simple yet effective password generator built with JavaScript. Instantly generate secure, customizable passwords directly in your browser.
 
