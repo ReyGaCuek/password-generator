@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="input-group">
+            <label for="passwordLength">Panjang Password:</label>
+            <input type="number" id="passwordLength" value="12" min="8">
+        </div>
+        <div class="checkbox-group">
+            <label><input type="checkbox" id="includeLowercase" checked> Huruf Kecil</label>
+            <label><input type="checkbox" id="includeUppercase" checked> Huruf Besar</label>
+            <label><input type="checkbox" id="includeNumbers" checked> Angka</label>
+            <label><input type="checkbox" id="includeSymbols" checked> Simbol</label>
+        </div>
+        <button id="generateBtn">Generate Password</button>
+        <div class="output-group">
+            <label for="passwordOutput">Password:</label>
+            <input type="text" id="passwordOutput" readonly>
+            <button id="copyBtn">Salin</button>
+        </div>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
